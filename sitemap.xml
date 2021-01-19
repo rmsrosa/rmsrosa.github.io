@@ -2,19 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://rmsrosa.github.io/pages/menu_eventos/index.html</loc>
-    <lastmod>2021-01-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://rmsrosa.github.io/404/index.html</loc>
-    <lastmod>2021-01-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://rmsrosa.github.io/pages/menu_administration/index.html</loc>
     <lastmod>2021-01-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -56,14 +44,8 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://rmsrosa.github.io/pages/menu_events/index.html</loc>
-    <lastmod>2021-01-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://rmsrosa.github.io/pages/menu_cv_en/index.html</loc>
-    <lastmod>2021-01-18</lastmod>
+    <lastmod>2021-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -74,8 +56,14 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://rmsrosa.github.io/pages/menu_blog/index.html</loc>
+    <lastmod>2021-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://rmsrosa.github.io/pages/menu_cv/index.html</loc>
-    <lastmod>2021-01-18</lastmod>
+    <lastmod>2021-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -86,8 +74,8 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://rmsrosa.github.io/pages/menu_administracao/index.html</loc>
-    <lastmod>2021-01-18</lastmod>
+    <loc>https://rmsrosa.github.io/pages/menu_blog_en/index.html</loc>
+    <lastmod>2021-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
