@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title><![CDATA[Ricardo MS Rosa]]></title>
+  <description><![CDATA[Webpage of Ricardo M. S. Rosa
+]]></description>
+  <link>https://rmsrosa.github.io/</link>
+  <atom:link href="https://rmsrosa.github.io/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title><![CDATA[Greetings]]></title>
+    <link>https://rmsrosa.github.io/blog/2021/02/greetings/</link>
+    <description><![CDATA[Greetings
+<br><a href="https://rmsrosa.github.io/blog/2021/02/greetings/">Read more</a>]]></description>
+    <guid>https://rmsrosa.github.io/blog/2021/02/greetings/</guid>
+    <pubDate>Sat, 6 Feb 2021 00:00:00 UT</pubDate>
+  </item>
+</channel>
+</rss>
