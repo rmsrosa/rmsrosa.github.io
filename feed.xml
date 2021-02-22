@@ -6,6 +6,14 @@
   <link>https://rmsrosa.github.io/</link>
   <atom:link href="https://rmsrosa.github.io/feed.xml" rel="self" type="application/rss+xml" />
   <item>
+    <title><![CDATA[Computing time average bounds for the Van der Pol oscillator in Julia]]></title>
+    <link>https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/</link>
+    <description><![CDATA[Computing time average bounds for Van der Pol oscillator in Julia
+<br><a href="https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/">Read more</a>]]></description>
+    <guid>https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/</guid>
+    <pubDate>Mon, 22 Feb 2021 00:00:00 UT</pubDate>
+  </item>
+  <item>
     <title><![CDATA[Time average bounds via Sum of Squares]]></title>
     <link>https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_SoS/</link>
     <description><![CDATA[Time average bounds via Sum of Squares
