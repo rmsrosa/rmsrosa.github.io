@@ -3,7 +3,7 @@ using DynamicPolynomials
 using SumOfSquares
 using SDPAFamily
 
-function get_bound_vdp(μ, ϕ, Vdeg)
+function get_bound_vdp_sos(μ, ϕ, Vdeg)
     @polyvar x y
 
     f = [y, μ*(1 - x^2)*y - x]
@@ -33,7 +33,7 @@ end
 μ=4
 ϕ(u) = sum(u.^2)
 Vdeg_range = 4:2:10
-optim = [get_bound_vdp(μ, ϕ, Vdeg) for Vdeg in Vdeg_range]
+optim = [get_bound_vdp_sos(μ, ϕ, Vdeg) for Vdeg in Vdeg_range]
 
 bounds = [optim[j][end] for j in 1:length(optim)]
 
