@@ -39,6 +39,6 @@ bounds = [optim[j][end] for j in 1:length(optim)]
 
 plt_sos = PlotlyJS.plot(
     PlotlyJS.scatter(;x=Vdeg_range[2:end], y=bounds[2:end], yaxis_log=true, line_width=2, name="bound", mode="lines+markers", line_color="green"),
-    Layout(;xaxis_title = "degree of auxiliary polynomial V", yaxis_title = "bound", title="Bounds on Φ̄ for different degrees for V"
+    Layout(;yaxis_range=[4.0,6.0], xaxis_title = "degree of auxiliary polynomial V", yaxis_title = "bound", title="Bounds on Φ̄ for different degrees for V"
     )
 )

@@ -22,7 +22,7 @@ end
 
 plt_int = PlotlyJS.plot(
     PlotlyJS.scatter(;x=ϕ_times, y=ϕ_mean, line_width=2, name="ϕ_mean(T)", mode="lines", line_color="red"),
-    Layout(;xaxis_title = "T", yaxis_title = "x²+y²", title="Evolution of the time average ϕᵤ(T) = (1/T)∫₀ᵀ ‖u(t)‖² dt;\nbound Φ̄ ≤ $(round(ϕ_mean[end],digits=3))"
+    Layout(;yaxis_range=[4.0,8.0], xaxis_title = "T", yaxis_title = "x²+y²", title="Evolution of the time average ϕᵤ(T) = (1/T)∫₀ᵀ ‖u(t)‖² dt;\nbound Φ̄ ≤ $(round(ϕ_mean[end],digits=3))"
     )
 )
 

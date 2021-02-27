@@ -1,9 +1,9 @@
 ~~~
-<div id="fdpqnq" style="width:680px;height:350px"></div>
+<div id="fdpbnv" style="width:680px;height:350px"></div>
 
 <script>
-	var fig = {"layout":{"xaxis":{"showgrid":true,"gridcolor":"white","titlefont":{"color":"#555555","size":14},"ticks":"outside","title":"degree of auxiliary polynomial V","linewidth":1.0,"tickcolor":"#555555","linecolor":"white","automargin":true},"paper_bgcolor":"white","font":{"size":10},"titlefont":{"size":14},"margin":{"l":50,"b":50,"r":50,"t":60},"plot_bgcolor":"#E5E5E5","yaxis":{"showgrid":true,"gridcolor":"white","titlefont":{"color":"#555555","size":14},"ticks":"outside","title":"bound","linewidth":1.0,"tickcolor":"#555555","linecolor":"white","automargin":true},"title":"Bounds on Φ̄ for different degrees for V","autosize":true},"frames":[],"data":[{"marker":{"color":"#E24A33","line":{"color":"#348ABD","width":0.5}},"mode":"lines+markers","line":{"color":"green","width":2},"y":[5.816751362508281,5.566508467955905,5.0219594820626305],"type":"scatter","name":"bound","yaxis":{"log":true},"x":[6,8,10]}]};
-	CONTAINER = document.getElementById('fdpqnq');
+	var fig = {"layout":{"xaxis":{"showgrid":true,"gridcolor":"white","titlefont":{"color":"#555555","size":14},"ticks":"outside","title":"degree of auxiliary polynomial V","linewidth":1.0,"tickcolor":"#555555","linecolor":"white","automargin":true},"paper_bgcolor":"white","font":{"size":10},"titlefont":{"size":14},"margin":{"l":50,"b":50,"r":50,"t":60},"plot_bgcolor":"#E5E5E5","yaxis":{"showgrid":true,"gridcolor":"white","titlefont":{"color":"#555555","size":14},"ticks":"outside","range":[4.0,6.0],"title":"bound","linewidth":1.0,"tickcolor":"#555555","linecolor":"white","automargin":true},"title":"Bounds on Φ̄ for different degrees for V","autosize":true},"frames":[],"data":[{"marker":{"color":"#E24A33","line":{"color":"#348ABD","width":0.5}},"mode":"lines+markers","line":{"color":"green","width":2},"y":[5.816751362508281,5.566508467955905,5.0219594820626305],"type":"scatter","name":"bound","yaxis":{"log":true},"x":[6,8,10]}]};
+	CONTAINER = document.getElementById('fdpbnv');
 	Plotly.newPlot(CONTAINER, fig.data, fig.layout)
 </script>
 ~~~
