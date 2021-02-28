@@ -36,13 +36,13 @@
 
 
 <!-- Content appended here -->
-<div class="franklin-content"><h1 id="time_average_bounds_via_sum_of_squares"><a href="#time_average_bounds_via_sum_of_squares" class="header-anchor">Time average bounds via Sum of Squares</a></h1>
+<div class="franklin-content"><h1 id="time_average_bounds_via_sum_of_squares"><a href="#time_average_bounds_via_sum_of_squares">Time average bounds via Sum of Squares</a></h1>
 <p>9 February 2021 | <strong>R. Rosa</strong></p>
-<h2 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h2>
+<h2 id="motivation"><a href="#motivation">Motivation</a></h2>
 <p>In many real-world problems, one is interested in estimating certain key quantities related to the problem. For instance, in fluid flows, quantities of interest involve kinetic energy, enstrophy, drag coefficient, energy dissipation rate, and so on. In other applications, one might be interested in mechanical stress, chemical concentration, infected population, pharmaceutical dosage, etc.</p>
 <p>Many such problems can be resonably modeled by differential equations, which may, however, exibit complicate, perhaps chaotic dynamics. In those situations, the instantaneous value of certain quantities vary unpredictably in time, but very often their mean value is reasonably steady.</p>
 <p>This mean value can be considered in different ways, e.g. as time average, as ensemble average, or as spatial average, and are thus more ameanable to analysis. This article considers ways to estimate time and ensemble averages of certain quantities.</p>
-<h2 id="problem_setting"><a href="#problem_setting" class="header-anchor">Problem setting</a></h2>
+<h2 id="problem_setting"><a href="#problem_setting">Problem setting</a></h2>
 <p>If a model for the problem is available in the form of an ordinary differential equation</p>
 \[ \frac{\textrm{d} u}{\textrm{d}t} = F(u),
 \]
@@ -53,7 +53,7 @@
 <p>The idea here is that we would like to find an upper bound for \(\bar\phi(u_0)\), for all possible initial conditions \(u_0\in B\), in some subset of interest \(B\subset X\).</p>
 <p>Assuming that \(\phi\) is continuous, that \(B\) is positively invariant &#40;i.e. \(u(0)\in B\) implies \(u(t)\in B\), \(\forall t\geq 0\).&#41;, and \(B\) is compact, then \(t\mapsto \phi(u(t))\) is bounded on \(t\geq 0\), and the superior limit above is uniformily bounded in \(u_0\in B\).</p>
 <p>The problem, then, is to find the <em>best possible bound</em> C for \(\sup_{u_0\in B}\bar\phi(u_0)\).</p>
-<h2 id="overview_of_some_analytic_and_numerical_methods"><a href="#overview_of_some_analytic_and_numerical_methods" class="header-anchor">Overview of some analytic and numerical methods</a></h2>
+<h2 id="overview_of_some_analytic_and_numerical_methods"><a href="#overview_of_some_analytic_and_numerical_methods">Overview of some analytic and numerical methods</a></h2>
 <p>One way to bound \(\phi(u_0)\) is to do what is called <em>energy-type</em> estimates, which amounts to multiplying the equation by appropriate terms aiming to obtain inequalities that eventually lead to an estimate for \(\phi(u_0)\). Or by <em>variational</em> estimates, introducing an auxiliary function, within a special class of functions, and performing some minimization with respect to the auxiliary function.</p>
 <p>Numerically, we can use a Monte-Carlo method and simulate the evolution of the equation in a computer, with randomly chosen initial conditions, and look for the time average over sufficiently long time intervals &#40;sufficiently in the sense, for instance, that the finite-time average does not change much – according to a given error – by increasing the averaging time&#41;. Or one can vary the auxiliary function in the special class of functions and look for the best estimate.</p>
 <p>More recently, however, a novel method is being used, which is a sort of variational technique, but in a different perspective and leading to an efficient numerical approach. There are some aspects I would like to discuss concerning this method:</p>
@@ -67,7 +67,7 @@
 <li><p>The optimality result above has been proved first in the finite-dimensional case and, more recently, myself and a co-author extended it to dissipative evolutionary partial differential equations.</p>
 </li>
 </ol>
-<h2 id="the_sum_of_squares_sos_problem"><a href="#the_sum_of_squares_sos_problem" class="header-anchor">The Sum of Squares &#40;SoS&#41; problem</a></h2>
+<h2 id="the_sum_of_squares_sos_problem"><a href="#the_sum_of_squares_sos_problem">The Sum of Squares &#40;SoS&#41; problem</a></h2>
 <p>Looking for an expression for a nonnegative multivariate real polynomial \(p=p(x)\) as a Sum of Squares &#40;SoS&#41; of other polynomials, i.e. \(p(x) = \sum_{j=1}^k p_j(x)^2\) for other polynomials \(p_j=p_j(x)\), is not a new problem. In 1885, the 21-year old Minkowski made his inaugural dissertation on quadratic polynomials conjecturing that there must exist homogeneous, nonnegative real polynomials of degree \(m\) in \(n\) variables, for arbitrary \(m, n > 2\), which are not sums of squares of other homogeneous real polynomials. Hilbert initially attacked Minkowski&#39;s claim, but by the end of the presentation Hilbert was convinced that this might indeed be true at least starting with \(n=3\). Three years later, at the age of 26, Hilbert himself proved that the claim is not true for \(n=3, m=4\), but that for \(n\geq 3, m\geq 6\) or for \(n\geq 4, m\geq 4\), the set of nonnegative polynomials of degree \(m\) in \(n\) variables is indeed strictly larger than the set of sum of squares of polynomials.</p>
 <p>Further work on the subject led him to formulate the 17th problem in his list of 23 problems presented in 1900: <em>must every nonnegative homogenous polynomial be expressed as a sum of squares of rational functions?</em></p>
 <p>Hilbert used tools from classical algebraic geometry at that time, without given explicit examples for the problem addressing Minkowski&#39;s dissertation. Explicit examples of homogenous polynomials which are not sum of squares of other polynomials were only given in the second half of the 20th century. One famous example is that of Motzkin:</p>
@@ -78,7 +78,7 @@
 <p>Applications to local stability of PDEs and, in particular to 2D fluid flows were given, respectively by Papachristodoulou and Peet &#40;2006&#41; and Yu, Kashima, Imura &#40;2008&#41;.</p>
 <p>Finally we get to the articles related to the main motivation for this pots, which is that of globally estimating quantities related to the problem at hand and the global stability of the model.</p>
 <p>The first article which seems to exploit the technique of Sum of Squares to the global analysis of PDEs seem to be that of Goulart and Chernyshenko &#40;2012&#41;, which considered, in particular, the global stability of fluid flows. This was soon followed by a number of works by various authors: Fantuzzi, Goluskin, Doering, Goulart, Chernyshenko, Huang, Papachristodoulou &#40;2010s&#41;, among others &#40;see e.g. <a href="https://royalsocietypublishing.org/doi/10.1098/rsta.2013.0350">Chernyshenko, Goulart, Huang, and Papachristodoulou</a>&#41;. These culminated with the work of <a href="https://www.sciencedirect.com/science/article/pii/S0375960117312033?via&#37;3Dihub">Tobasco, Goluskin, and Doering &#40;2018&#41;</a> showing that the convex optimization problem can be written as a minimax problem, which can then be proved to yield an optimal result for the estimate of the asymptotic time averages mentioned earlier. In turn, this gives the expectation that relaxing the problem to use the sum of squares approach yields sharp bounds, close to the optimal one.</p>
-<h2 id="the_convex_minimization_problem"><a href="#the_convex_minimization_problem" class="header-anchor">The convex minimization problem</a></h2>
+<h2 id="the_convex_minimization_problem"><a href="#the_convex_minimization_problem">The convex minimization problem</a></h2>
 <p>Now we begin to directly address the points raised above. Let us go back to the setting described earlier and see how the convex optimization problem appears.</p>
 <p>One key aspect is to realize that, given any continuously differentiable function \(V:X\rightarrow \mathbb{R}\), it follows, by the chain rule and integration, that the asymptotic time average of \(F(u)\cdot \nabla V(u)\) satisfies</p>
 \[ \begin{aligned}
@@ -110,7 +110,7 @@
 <a id="convexminimizationprob" class="anchor"></a>\[ \sup \bar\phi \leq \inf_{(C,V)\in \mathbb{R}\times\mathcal{C}^1, \;S_{C,V}(u)\geq 0, \forall u\in B} C, 
 \]
 <p>where \(S_{C,V}(u) = C - \phi - (F\cdot \nabla V)\). This is a convex minimization problem, since the objetive function \((C,V)\mapsto C\) is linear, and the minimization is sought after within the set \(S_{C,V}\geq 0\), which is convex since \((C,V)\mapsto S_{C,V}(u)\) is linear and the half plane is convex.</p>
-<h2 id="relaxing_the_minimization_problem_to_a_sum_of_squares_minimization"><a href="#relaxing_the_minimization_problem_to_a_sum_of_squares_minimization" class="header-anchor">Relaxing the minimization problem to a Sum of Squares minimization</a></h2>
+<h2 id="relaxing_the_minimization_problem_to_a_sum_of_squares_minimization"><a href="#relaxing_the_minimization_problem_to_a_sum_of_squares_minimization">Relaxing the minimization problem to a Sum of Squares minimization</a></h2>
 <p>The minimization problem <span class="eqref">(<a href="#convexminimizationprob">10</a>)</span> can be NP-hard to compute. However, when the differential equation term \(F\) and the quantity of interest \(\phi\) are polynomials, the minimization problem can be relaxed to a P-complete convex minimization problem by restricting \(V\) to be a polynomial of a given order, or some special type of polynomial, and requiring that the polynomial \(S_{C,V}\) be SoS, which certainly implies the condition that it be nonnegative. That might not yield an optimal bound, but it&#39;s been show to yield pretty sharp estimates for a number of equations.</p>
 <p>This formulation takes the precise form</p>
 \[ \sup \bar\phi \leq \inf_{(C,V)\in \mathbb{R}\times\mathrm{P}_m(X), \;S_{C,V}(u) = \texttt{SoS}} C,
@@ -173,7 +173,7 @@
 \[ S \succeq 0, \qquad A_i S = b_i.
 \]
 <p>If we further ask \(S\) to minimize the quantity \(L\cdot S\) for some desirable symmetric matrix \(L\), then we end up with the primal semidefinite programming problem for \(S\).</p>
-<h2 id="the_minimax_formulation"><a href="#the_minimax_formulation" class="header-anchor">The minimax formulation</a></h2>
+<h2 id="the_minimax_formulation"><a href="#the_minimax_formulation">The minimax formulation</a></h2>
 <p>The convex minimization problem <span class="eqref">(<a href="#convexminimizationprob">10</a>)</span> can easily be rewritten in the minimax form</p>
 \[ \sup_{u_0\in B} \bar\phi(u_0) \leq \min_{V\in \mathcal{C}^1(B)} \max_{u\in B} \left\{\phi(u) + F(u) \cdot \nabla V(u)\right\}.
 \]
@@ -181,7 +181,7 @@
 \[ \max_{u_0\in B} \bar\phi(u_0) = \min_{V\in \mathcal{C}^1(B)} \max_{u\in B} \left\{\phi(u) + F(u) \cdot \nabla V(u)\right\}.
 \]
 <p>The proof uses Ergodic Theory and a minimax principle. In a future opportunity we will go through its proof, as well as to detail the extension done to the infinite-dimensional setting, which is briefly discussed next.</p>
-<h2 id="extension_to_the_infinite-dimensional_setting"><a href="#extension_to_the_infinite-dimensional_setting" class="header-anchor">Extension to the infinite-dimensional setting</a></h2>
+<h2 id="extension_to_the_infinite-dimensional_setting"><a href="#extension_to_the_infinite-dimensional_setting">Extension to the infinite-dimensional setting</a></h2>
 <p>The proof in the finite dimensional case uses a few conditions that are delicate to extend to the infinite dimensional case:</p>
 <ol>
 <li><p>The positively invariant set \(B\) has to be compact;</p>
