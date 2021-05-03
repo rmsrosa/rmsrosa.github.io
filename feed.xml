@@ -6,6 +6,14 @@
   <link>https://rmsrosa.github.io/</link>
   <atom:link href="https://rmsrosa.github.io/feed.xml" rel="self" type="application/rss+xml" />
   <item>
+    <title><![CDATA[Buckingham-Pi Theorem and a julia package]]></title>
+    <link>https://rmsrosa.github.io/blog/2021/05/unitfulbuckinghampi/</link>
+    <description><![CDATA[Buckingham-Pi Theorem and a julia package
+<br><a href="https://rmsrosa.github.io/blog/2021/05/unitfulbuckinghampi/">Read more</a>]]></description>
+    <guid>https://rmsrosa.github.io/blog/2021/05/unitfulbuckinghampi/</guid>
+    <pubDate>Sun, 2 May 2021 00:00:00 UT</pubDate>
+  </item>
+  <item>
     <title><![CDATA[Computing time average bounds for the Van der Pol oscillator in Julia]]></title>
     <link>https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/</link>
     <description><![CDATA[Computing time average bounds for Van der Pol oscillator in Julia

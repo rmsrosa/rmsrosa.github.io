@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+   
+  
+  <link rel="stylesheet" href="/css/franklin.css">
+  <link rel="stylesheet" href="/css/basic.css">
+  <link rel="icon" href="/assets/favicon.png">
+   <title>Buckingham-Pi Theorem and a julia package</title>  
+</head>
+<body>
+
+<header>
+  <a href="http://www.im.ufrj.br"><img style="max-height:60px; margin-top: 0px;" src="/assets/img/Logo_IM_caption.png"></a>
+  <nav>
+    
+      <ul>
+        <li><a href="/en/">Home</a></li>
+        <li><a href="/pages/teaching/">Teaching</a></li>
+        <li><a href="/pages/research/">Research</a></li>
+        <li><a href="/pages/cv_en/">CV</a></li>
+        <li><a href="/pages/blog_en/">Blog</a></li>
+        <li><a href="/pages/contact/">Contact</a></li>
+        <li><a href="/"><img alt="pt" src="/assets/img/bandeira-nacional-brasil.jpg" width=16></a></li>
+      </ul>
+      <img src="/assets/hamburger.svg" id="menu-icon">
+      
+  </nav>
+  <a href="http://www.ufrj.br"><img style="max-height:65px; margin-top: 0px;" src="/assets/img/001minerva_color_vert.png"></a>
+</header>
+
+
+
+<!-- Content appended here -->
+<div class="franklin-content"><h1 id="buckingham-pi_theorem_and_the_unitfulbuckinghampijl_package"><a href="#buckingham-pi_theorem_and_the_unitfulbuckinghampijl_package" class="header-anchor">Buckingham-Pi Theorem and the UnitfulBuckinghamPi.jl package</a></h1>
+<p>2 May 2021 | <strong>R. Rosa</strong></p>
+<h2 id="introduction"><a href="#introduction" class="header-anchor">Introduction</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/Dimensional_analysis">Dimensional analysis</a> is a powerful tool in many areas. It helps in establishing &quot;first-order&quot; approximations to a given problem, in checking for dimensional correctness of certain models, in reducing the number of relevant parameters in models, and so on.</p>
+<p>Its basis is the <a href="https://en.wikipedia.org/wiki/Buckingham_π_theorem">Buckingham-Pi Theorem</a>, which gives conditions, and a recipe, to obtain adimensional groups of parameters from a list of dimensional parameters.</p>
+<p>The essence of the proof of the Buckingham-Pi Theorem is the <a href="https://en.wikipedia.org/wiki/Rank–nullity_theorem">Rank–nullity theorem</a>, from Linear Algebra.</p>
+<p>The package <a href="https://github.com/rmsrosa/UnitfulBuckinghamPi.jl">rmsrosa/UnitfulBuckinghamPi.jl</a> has been developed with the intent of using the recipe given in the proof of the Buckingham-Pi Theorem, via the Rank-nullity Theorem, to yield the adimensional groups present in a list of parameters.</p>
+<p>The package exploits the tools given by the <a href="https://github.com/PainterQubits/Unitful.jl">PainterQubits/Unitful.jl</a> package to facilitate handling the dimensional aspects of the quantities, units and dimensions that comprise the list of parameters.</p>
+<p>The aim of this article is to briefly discuss the proof of the Buckingham-Pi Theorem and to present the package <a href="https://github.com/rmsrosa/UnitfulBuckinghamPi.jl">rmsrosa/UnitfulBuckinghamPi.jl</a>.</p>
+<h2 id="the_simple_pendulum"><a href="#the_simple_pendulum" class="header-anchor">The simple pendulum</a></h2>
+<p>We illustrate the discussion with the simple pendulum:</p>
+<p><img src="/assets/img/pendulum_256x256.png" alt="simple pendulum" /></p>
+<p>We would like to obtain a relation between the period of the swinging pendulum and the parameters we believe that are relevant to the problem.</p>
+<p>In this case, we consider the <em>length</em> \(\ell\) of the rod, the <em>mass</em> \(m\) of the bob, the <em>acceleration of gravity</em> \(g\), the <em>angle</em> \(\theta\) of the rod with respect to the downwards vertical direction, and the <em>period</em> \(\tau\) of the swinging pendulum.</p>
+<h2 id="using_unitfuljl_to_define_the_parameters"><a href="#using_unitfuljl_to_define_the_parameters" class="header-anchor">Using Unitful.jl to define the parameters</a></h2>
+<p>We use <a href="https://github.com/PainterQubits/Unitful.jl">PainterQubits/Unitful.jl</a> to define the parameters mentioned above. We define most of them as <code>Unitful.FreeUnits</code>, except the acceleration of gravity, which is a constant and which is given as a <code>Unitful.Quantity</code>.</p>
+<pre><code class="language-julia">using Unitful
+
+ℓ &#61; u&quot;m&quot;
+g &#61; 9.8u&quot;m/s^2&quot;
+m &#61; u&quot;g&quot;
+τ &#61; u&quot;s&quot;
+θ &#61; u&quot;NoDims&quot;</code></pre>
+<h2 id="feeding_the_parameters_to_unitfulbuckinghampijl"><a href="#feeding_the_parameters_to_unitfulbuckinghampijl" class="header-anchor">Feeding the parameters to UnitfulBuckinghamPi.jl</a></h2>
+<p>In order to use <code>UnitfulBuckingham.jl</code> to find the adimensional groups, we use the macro <code>@setparameters</code>, to &quot;register&quot; the parameters for the package:</p>
+<pre><code class="language-julia">using UnitfulBuckinghamPi
+
+@setparameters ℓ g m τ θ</code></pre>
+<h2 id="finding_the_adimensional_groups_with_unitfulbuckinghampijl"><a href="#finding_the_adimensional_groups_with_unitfulbuckinghampijl" class="header-anchor">Finding the adimensional groups with UnitfulBuckinghamPi.jl</a></h2>
+<p>With the parameters registered in <code>UnitfulBuckinghamPi.jl</code>, we find the adimensional groups with the function <code>pi_groups&#40;&#41;</code>:</p>
+<pre><code class="language-julia">Π &#61; pi_groups&#40;&#41;</code></pre>
+<pre><code class="plaintext">2-element Vector{Expr}:
+ :(g ^ (1 // 2) * ℓ ^ (-1 // 2) * τ ^ (1 // 1))
+ :(θ ^ (1 // 1))</code></pre>
+<p>Notice the result is of type <code>Vector&#123;Expr&#125;</code>, with two elements, corresponding to the two adimensional groups obtained from the set of parameters, \(\Pi = [\Pi_1, \Pi_2]\).</p>
+<p>The last one is simply the angle \(\Pi_2 = \theta\) and the first one is the sought-after adimensional relation for the period:</p>
+\[ \Pi_1 = \frac{g^{1/2} \tau}{\ell^{1/2}}.
+\]
+<h2 id="how_does_it_work"><a href="#how_does_it_work" class="header-anchor">How does it work?</a></h2>
+<p>During the execution of <code>pi_groups&#40;&#41;</code>, the package builds the &quot;parameter-to-dimension&quot; matrix, which associates each parameter to the combination of base dimensions in it:</p>
+<pre><code class="language-julia">pdmat &#61; UnitfulBuckinghamPi.parameterdimensionmatrix&#40;&#41;</code></pre>
+<pre><code class="plaintext">3×5 Matrix{Rational{Int64}}:
+ 0//1  -2//1  0//1  1//1  0//1
+ 0//1   0//1  1//1  0//1  0//1
+ 1//1   1//1  0//1  0//1  0//1</code></pre>
+<p>Notice this is a <code>Matrix</code> of <code>Rational</code> elements. The double slash means division, for <code>Rational</code> elements. Rational elements are used to avoid floating point errors messing up with the powers.</p>
+<p>The columns correspond to the parameters \(\ell, g, m, τ, θ\), respectively, while the rows correspond to the dimensions \(T, M, L\), standing for time, mass and length. The coefficients of the matrix are the powers of each dimension in each parameter.</p>
+<p>The coefficients of this matrix can also be seen as the multiplicative factors in the log-log relation between the dimensions and the parameters. More precisely, let us take the length \(\ell\) of the rod, whose dimension is \([\ell] = L = T^0 L^1 M^0\). Taking the logarithm of this expression, we find</p>
+\[ \log[\ell] = 0 \log T + 0 \log M + 1 \log L = (0, 0, 1) \left(\begin{matrix} \log T \\ \log M \\ \log L \end{matrix}\right).
+\]
+<p>As for the acceleration of gravity, \(g\), whose dimension is \([g] = L/T = T^{-2} L^1 M^0\), we have</p>
+\[ \log[g] = -2 \log T + 0 \log M + 1 \log L  = (-2, 0, 1) \left(\begin{matrix} \log T \\ \log M \\ \log L\end{matrix}\right).
+\]
+<p>Similarly,</p>
+\[ \log[m] = 0 \log T + 1 \log M + 0 \log L  = (0, 1, 0) \left(\begin{matrix} \log T \\ \log M \\ \log L \end{matrix}\right).
+\]
+\[ \log[\tau] = 1 \log T + 0 \log M + 0 \log L = (1, 0, 0) \left(\begin{matrix} \log T \\ \log M \\ \log L\end{matrix}\right).
+\]
+\[ \log[\theta] = 0 \log T + 0 \log M + 0 \log L = (0, 0, 0) \left(\begin{matrix} \log T \\ \log M \\ \log L\end{matrix}\right).
+\]
+<p>One can think of \(\log[\ell], \log[g], \log[m], \log[\tau]\), and \(\log[\theta]\) as vectors in a three-dimensional space of &quot;dimensions&quot;, with \(\{\log T, \log M, \log L\}\) being a basis for this space, and with the expressions above as the representation of those vectors in this basis.</p>
+<p>The matrix whose rows are composed of the representation of those vectors in this basis is our &quot;parameter-to-dimension&quot; matrix.</p>
+<p>Now, the Buckingham-Pi Theorem states that</p>
+<blockquote>
+<p><strong>Theorem &#40;Buckingham-Pi&#41;</strong> Consider a system with \(n\) quantities in which \(m\) fundamental &#40;base&#41; dimensions are involved. Then, there are \(n-m\) adimensional groups which can be expressed as monomials of the given quantities.</p>
+</blockquote>
+<p>So, the adimensional groups, let&#39;s call them \(\pi_1, \ldots, \pi_{n-m}\) as originally done, are found as monomials</p>
+\[ \pi_j = q_1^{a^j_1}\cdots q_n^{a^j_n}, \quad j=1, \ldots, n-m.
+\]
+<p>By considering the dimesion of the group, and of each parameter, and taking the logarithm of the relation so obtained, we find</p>
+\[ \log[\pi_j] = a^j_1\log[q_1] + \cdots + a^j_n \log[q_n], \quad \quad j=1, \ldots, n-m.
+\]
+<p>Since we want each \(\pi_j\) to be adimensional, we require \([\pi_j] = 1\), hence \(\log[\pi_j] = 0\). Therefore, we would like to solve the system</p>
+<a id="systeqfora" class="anchor"></a>\[  a^j_1\log[q_1] + \cdots + a^j_n \log[q_n] = 0, \qquad \quad j=1, \ldots, n-m.
+\]
+<p>The parameters have mixed dimensions, so, in order to solve the above system, we rewrite the dimension \([q_i]\) of each parameter in terms of the fundamental \(m\) dimensions, say \(D_1, \ldots, D_m\):</p>
+\[ [q_i] = D_1^{\beta_1^i}\ldots D_m^{\beta_m^i},
+\]
+<p>where the \(\beta_j^i\) are suitable powers for each parameter and each dimension. Taking the logarithm, we have</p>
+<a id="logqi" class="anchor"></a>\[  \log[q_i] = \beta_1^i \log D_1 + \ldots + \beta_m^i \log D_m.
+\]
+<p>Each vector \((\beta_j^i)_{j=1}^m\) forms one column of the &quot;parameter-to-dimension&quot; matrix mentioned above:</p>
+\[ A = \left[ \begin{matrix} \beta_1^1 & \ldots & \beta_1^n \\
+  \vdots & & \vdots \\
+  \beta_m^1 & \ldots & \beta_m^n \end{matrix}\right].
+\]
+<p>By substituting the expression <span class="eqref">(<a href="#logqi">11</a>)</span> for \(\log[q_i]\) in the system of equations <span class="eqref">(<a href="#systeqfora">9</a>)</span>, we rewrite the system in matrix form</p>
+\[  \left[ \begin{matrix} \beta_1^1 & \ldots & \beta_1^n \\
+  \vdots & & \vdots \\
+  \beta_m^1 & \ldots & \beta_m^n \end{matrix}\right] \left(\begin{matrix} a^j_1 \\ \vdots \\ a^j_n \end{matrix}\right) = \left(\begin{matrix} 0 \\ \vdots \\ 0 \end{matrix}\right).
+\]
+<p>Now it becomes clear that the solutions form the null space of the matrix \(A\). If \(n>m\), there are infinitely many solutions. There are, correspondingly, infinitely many adimensional groups. What we can do is to select just a few, just enough to span the whole null space. This will give us a &quot;minimal&quot; set of adimensional groups.</p>
+<p>Hence, what we need is to find a basis for the null space. This may be obtained in several ways, by factoring \(A\) in one of many forms, such as QR, LU, SVG, and so on.</p>
+<p>However, since we want to preserve the <code>Rational</code> type of the elements of the &quot;parameter-to-dimension&quot; matrix, we choose to perform an LU factorization of the matrix \(A\). In doing so, we find the null space of \(A\) by looking for the null space of \(U\).</p>
+<p>Of course, any decent computer language used in Scientific Computing has implementation for several different factorizations. The difficulty, however, is to find one that supports <code>Rational</code> types and for which the LU decomposition preserves this type. Such an <a href="https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/#LinearAlgebra.LU">LU factorization</a> is available in the standard <a href="https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/">LinearAlgebra</a> package of the <a href="https://julialang.org">Julia programming language</a>.</p>
+<p>The only problem, however, is that this implementation of the LU factorization does not include full pivoting, only row pivoting. This means the factorization may fail when the matrix is singular and needs column pivoting.</p>
+<p>In order to overcome this problem, we implement, in <a href="https://github.com/rmsrosa/UnitfulBuckinghamPi.jl">UnitfulBuckinghamPi.jl</a>, our own LU factorization, with full pivoting. And we take care of preserving the eltype of the matrix \(A\).</p>
+<p>The full pivoting algorithm yields two permutation vectors \(\vec{p}\) and \(\vec{q}\), a square \(m\times m\) lower-triangular matrix \(L\), and an upper-triangular \(m\times n\) matrix \(U\) such that \(LU = PAQ,\) where \(P\) and \(Q\) are the permutation matrices associated with the permutation vectors \(\vec{p}\) and \(\vec{q}\). In Julia vector/matrix notation, this is the same as <code>L*U &#61; A&#91;p;q&#93;</code>.</p>
+<p>Going back to the matrix <code>pdmat</code> obtained for the simple pendulum problem above, we perform the factorization</p>
+<pre><code class="language-julia">L, U, p, q &#61; UnitfulBuckinghamPi.lu_pq&#40;pdmat&#41;</code></pre>
+
+<p>Then, we obtain the matrix L: <pre><code class="plaintext">3×3 Matrix{Rational{Int64}}:
+  1//1  0//1  0//1
+ -1//2  1//1  0//1
+  0//1  0//1  1//1</code></pre></p>
+
+<p>The matrix U: <pre><code class="plaintext">3×5 Matrix{Rational{Int64}}:
+ -2//1  0//1  0//1  1//1  0//1
+  0//1  1//1  0//1  1//2  0//1
+  0//1  0//1  1//1  0//1  0//1</code></pre></p>
+
+<p>The permutation vector <code>p</code>: <pre><code class="plaintext">3-element Vector{Int64}:
+ 1
+ 3
+ 2</code></pre></p>
+
+<p>And the permutation vector <code>q</code>: <pre><code class="plaintext">5-element Vector{Int64}:
+ 2
+ 1
+ 3
+ 4
+ 5</code></pre></p>
+<p>By looking at the matrix <code>U</code>, we see that the first three columns are linearly independent, while column four is a linear combination of the first two and the fifth column is plain zero. Hence, <code>U</code> has full rank three, and null space with dimension two. We may find a basis \(\{\vec{v}_\alpha, \vec{v}_\beta\}\) for the null space by solving \(U\vec{v} = 0\) with \(\vec{v} = \vec{v}_\alpha\) of the form \(\vec{v}_\alpha = (v_1,v_2,v_3,1,0)\) and \(\vec{v} = \vec{v}_\beta\) of the form \(\vec{v}_\beta = (v_1, v_2, v_3, 0, 1)\).</p>
+<p>Hence, we solve</p>
+\[ \left[ \begin{matrix} -2 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \end{matrix}\right] \left(\begin{matrix} v_1 \\ v_2 \\ v_3 \end{matrix} \right) = - \left(\begin{matrix} 1 \\ 1/2 \\ 0 \end{matrix}\right),
+\]
+<p>to find \(\vec{v}_\alpha = (1/2, -1/2, 0, 1, 0)\), and we solve</p>
+\[ \left[ \begin{matrix} -2 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \end{matrix}\right] \left(\begin{matrix} v_1 \\ v_2 \\ v_3 \end{matrix} \right) = - \left(\begin{matrix} 0 \\ 0 \\ 0 \end{matrix}\right),
+\]
+<p>to find \(\vec{v}_\beta = (0, 0, 0, 0, 1)\).</p>
+<p>Let us not forget that the columns have been permuted according to the vector \(\vec{q} = (2,1,3,4,5)\). Hence, the columns, which originally corresponded to the &#40;logarithm of the dimension of the&#41; parameters \(ℓ, g, m, τ, θ\), now correspond to &#40;idem&#41; \(g, ℓ, m, τ, θ\), respectively. Then, taking this into consideration, equation <span class="eqref">(<a href="#systeqfora">9</a>)</span>, in this case, takes the form</p>
+\[ (1/2) \log[g] + (-1/2) \log[\ell] + (0)\log[m] + (1)\log[\tau] + (0)\log[\theta]  = 0
+\]
+<p>and</p>
+\[ (0) \log[g] + (0) \log[\ell] + (0)\log[m] + (0)\log[\tau] + (1)\log[\theta]  = 0.
+\]
+<p>Rewriting them, we have</p>
+\[ (1/2) \log[g] + (-1/2) \log[\ell] + (1)\log[\tau] = 0, \qquad \log[\theta]  = 0.
+\]
+<p>Exponentiating them, we finally obtain the two adimensional groups</p>
+\[ \Pi_1 = \frac{g^{1/2}\tau}{\ell^{1/2}}, \qquad \Pi_2 = \theta.
+\]
+<p>This concludes the analysis.</p>
+<script src="https://utteranc.es/client.js"
+    repo="rmsrosa/blog_comments"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>
+
+<div class="page-foot">
+  <div class="copyright">
+    &copy; Ricardo M. S. Rosa. Last modified: May 03, 2021. Built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a>.
+  </div>
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
+    
+    
+        <script src="/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+
+    
+  </body>
+</html>

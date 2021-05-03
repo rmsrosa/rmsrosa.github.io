@@ -1,0 +1,10 @@
+"Dimension of ℓ: $(dimension(ℓ))" = "Dimension of ℓ: 𝐋"
+"Dimension of g: $(dimension(g))" = "Dimension of g: 𝐋 𝐓⁻²"
+"Dimension of m: $(dimension(m))" = "Dimension of m: 𝐌"
+"Dimension of τ: $(dimension(τ))" = "Dimension of τ: 𝐓"
+MethodError: no method matching dimension(::Unitful.Dimensions{()})
+Closest candidates are:
+  dimension(!Matched::Union{Dates.Day, Dates.Hour, Dates.Microsecond, Dates.Millisecond, Dates.Minute, Dates.Nanosecond, Dates.Second, Dates.Week}) at /Users/rrosa/.julia/packages/Unitful/PcVKX/src/dates.jl:12
+  dimension(!Matched::Unitful.Units{U, D, A} where A) where {U, D} at /Users/rrosa/.julia/packages/Unitful/PcVKX/src/utils.jl:204
+  dimension(!Matched::Unitful.Level) at /Users/rrosa/.julia/packages/Unitful/PcVKX/src/utils.jl:178
+  ...
