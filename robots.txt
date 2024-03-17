@@ -1,0 +1,4 @@
+Sitemap: https://rmsrosa.github.io/sitemap.xml
+
+User-agent: *
+Disallow:

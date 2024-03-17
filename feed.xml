@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  Ricardo M S Rosa  ]]>
+    </title>
+    <link> https://rmsrosa.github.io/ </link>
+    <description>
+      <![CDATA[  Website of Ricardo M. S. Rosa  ]]>
+    </description>
+    <atom:link
+      href="https://rmsrosa.github.io/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Analytic solutions of RODEs  ]]>
+  </title>
+  <link> https://rmsrosa.github.io/blog/2021/2022/11/analytic_rode/index.html </link>
+  <guid> https://rmsrosa.github.io/blog/2021/2022/11/analytic_rode/index.html </guid>
+  <description>
+    <![CDATA[  We discuss the implementation of analytic solutions of random ordinary differential equations within the julia SciML ecosystem, with the aim of benchmarking numerical methods.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Ricardo M. S. Rosa</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Buckingham-Pi Theorem and a julia package  ]]>
+  </title>
+  <link> https://rmsrosa.github.io/blog/2021/05/unitfulbuckinghampi/index.html </link>
+  <guid> https://rmsrosa.github.io/blog/2021/05/unitfulbuckinghampi/index.html </guid>
+  <description>
+    <![CDATA[  We discuss the Buckingham-Pi Theorem and the implementation of the julia package UnitfulBuckinghamPi.jl.  ]]>
+  </description>  
+    
+  <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Ricardo M. S. Rosa</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Computing time average bounds for the Van der Pol oscillator in Julia  ]]>
+  </title>
+  <link> https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/index.html </link>
+  <guid> https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/index.html </guid>
+  <description>
+    <![CDATA[  We compute time-average bounds for the Van der Pol oscillator using both the time-evolution of the differential equation and convex minimization with Sum of Squares. We use the Julia language and the SciMl and Flux ecosystems.  ]]>
+  </description>  
+    
+  <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Ricardo M. S. Rosa</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Time average bounds via Sum of Squares  ]]>
+  </title>
+  <link> https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_SoS/index.html </link>
+  <guid> https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_SoS/index.html </guid>
+  <description>
+    <![CDATA[  A convex minimization approach and a minimax formula for obtaining optimal bounds for time averages of quantities of solutions of differential equations, and a Sum of Squares technique to approximate such bounds.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Ricardo M. S. Rosa</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Greetings  ]]>
+  </title>
+  <link> https://rmsrosa.github.io/blog/2021/02/greetings/index.html </link>
+  <guid> https://rmsrosa.github.io/blog/2021/02/greetings/index.html </guid>
+  <description>
+    <![CDATA[  Introductory post in my blog  ]]>
+  </description>  
+    
+  <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Ricardo M. S. Rosa</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
