@@ -1,23 +1,11 @@
-~~~<table>
-  <tr class = "header headerLastRow">
-    <th style = "text-align: right;">degree</th>
-    <th style = "text-align: right;">bound</th>
-  </tr>
-  <tr>
-    <td style = "text-align: right;">4</td>
-    <td style = "text-align: right;">274.527</td>
-  </tr>
-  <tr>
-    <td style = "text-align: right;">6</td>
-    <td style = "text-align: right;">5.817</td>
-  </tr>
-  <tr>
-    <td style = "text-align: right;">8</td>
-    <td style = "text-align: right;">5.567</td>
-  </tr>
-  <tr>
-    <td style = "text-align: right;">10</td>
-    <td style = "text-align: right;">5.022</td>
-  </tr>
-</table>
-~~~
+MethodError: no method matching pretty_table(::IOBuffer, ::Matrix{Float64}, ::Matrix{String}; backend::Symbol, standalone::Bool, formatters::Main.FD_SANDBOX_2569371999895574908.var"#17#18")
+
+Closest candidates are:
+  pretty_table(::IO, ::Any; header, kwargs...)
+   @ PrettyTables ~/.julia/packages/PrettyTables/E8rPJ/src/print.jl:740
+  pretty_table(!Matched::Type{HTML}, ::Any; kwargs...)
+   @ PrettyTables ~/.julia/packages/PrettyTables/E8rPJ/src/print.jl:728
+  pretty_table(!Matched::Type{String}, ::Any; color, kwargs...)
+   @ PrettyTables ~/.julia/packages/PrettyTables/E8rPJ/src/print.jl:722
+  ...
+
