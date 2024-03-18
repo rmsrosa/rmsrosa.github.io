@@ -23,4 +23,4 @@ I am also teaching the usual second-year undergraduate course on ordinary differ
 #### ⟩⟩⟩ **Slides of my talk at the VI Workshop on Fluids and PDEs - Oct 2023**
 
 Here are [the slides of my talk](/assets/material/Apr_WorkshopFluidsPDE
-sVI_oct2023.pdf) in the Special Session on Fluid Dynamics, at the [ICMC Summer Meeting on Differential Equations - Chapter 2021](http://summer.icmc.usp.br/summers/summer21/).
+sVI_oct2023.pdf) at the [VI Workshop on Fluids and PDE](https://www.ime.unicamp.br/~viwfpde/index.php/venue/), *Celebrating the 60th birthdays of Helena J. Nussenzveig Lopes and Milton C. Lopes Filho.*
