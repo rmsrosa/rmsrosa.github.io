@@ -1,6 +1,8 @@
 
 1. De Oliveira, M; Bertho, A. C. S.; Costa, B.; Somerlatte Silva, F.; Alves, M. B.; Ramos Ramirez, M.; Borges, R. B. R.; Marques, R.; Rosa, R. M. S.; Peregrino, R. L.; Lobo, V. G. R; Fonseca, T. C. O.. BR-EMS 2021 life table for the Brazilian insured population. Revista Brasileira de Estudos de População - REBEP, v. 40 (2023), p. 1--24. ([DOI: 10.20947/s0102-3098a0252](http://dx.doi.org/10.20947/s0102-3098a0252))
 
+1. Becker, R. A.; Bercovici, H.; Biswas, A.; Cheskidov, A.; Constantin, P.; Eden, A.; Frazho, A.; Jolly, M.; Kukavica, I.; Pearcy, C.; Rosa, R. M. S.; Saut, J.-C.; Tannenbaum, A.; Temam, R.; Titi, E.; Voiculescu, D.. Remembrances of Ciprian Ilie Foias. American Mathematical Society. Notices, v. 69 (2022), p. 1529--1545. ([DOI: 10.1090/noti2545](https://doi.org/10.1090/noti2545))
+
 1. Rosa, Ricardo M. S.; Temam, Roger M. Optimal minimax bounds for time and ensemble averages for the incompressible Navier-Stokes equations. Pure Appl. Funct. Anal. 7 (2022), no. 1, 327--355. ([MR4396263](http://www.ams.org/mathscinet-getitem?mr=MR4396263))
 
 1. Foias, Ciprian; Rosa, Ricardo M. S.; Temam, Roger M.; Properties of stationary statistical solutions of the three-dimensional Navier-Stokes equations, J. Dynam. Differential Equations, 31 (2019), no. 3, 1689--1741. ([DOI:10.1007/s10884-018-9719-2](https://doi.org/10.1007/s10884-018-9719-2))

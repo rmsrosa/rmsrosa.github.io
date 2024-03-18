@@ -20,6 +20,14 @@ I am also teaching the usual second-year undergraduate course on ordinary differ
 
 {{ end }}
 
+#### ⟩⟩⟩ **Article on the BR-EMS 2021 life table for the Brazilian insured population published at REBEP**
+
+Article on the ["BR-EMS 2021 life table for the Brazilian insured population"](http://dx.doi.org/10.20947/s0102-3098a0252) published in January 2023 at the REBEP journal (Revista Brasileira de Estudos de População), stemmed from a research project conducted by the [Laboratório de Matemática Aplicada (LabMA/UFRJ)](https://labma.ufrj.br/site/) in partnership with [Federação Nacional de Previdência Privada e Vida (FENAPREVI)](https://fenaprevi.org.br).
+
+#### ⟩⟩⟩ **Memorial tribute to Ciprian Foias published in Notices of the American Mathematical Society**
+
+Article ["Remembrances of Ciprian Ilie Foias"](http://dx.doi.org/10.1090/noti2545) published in [Notices of the American Mathematical Society](https://www.ams.org/notices).
+
 #### ⟩⟩⟩ **Slides of my talk at the VI Workshop on Fluids and PDEs - Oct 2023**
 
 Here are [the slides of my talk](/assets/material/Apr_WorkshopFluidsPDE
