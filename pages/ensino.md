@@ -7,6 +7,59 @@
 
 ## Graduação
 
+### 2024/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias
+
+* Informações:
+  * **Período letivo:** 18 de março a 20 de julho.
+  * **Material:** O conteúdo da matéria está disponibilizado *online:* [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
+  * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
+  * Disciplina com espelho na pós-graduação.
+
+### 2023/2: Álgebra Linear Avançada
+
+* **Informações:**
+
+  * **Período letivo:** 10 de agosto a 23 de dezembro.
+  * **Local:** D-120 e Google Classroom.
+  * **Disciplina:** MAE352 - Álgebra Linear Avançada
+  * **Turma:** 16218 - Ter/Qui - 15h às 17h
+  * **Notas de aula:** [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
+  * **Avaliação:** Listas de exercícios, provas e projeto final.
+
+### 2023/2: Equações Diferenciais
+
+* **Informações:**
+
+  * **Período letivo:** 10 de agosto a 23 de dezembro.
+  * **Local:** CCMN F₂-030 e Google Classroom.
+  * **Disciplina:** MAE127 - Equações Diferenciais
+  * **Turma:** 15795 - Ter/Qui - 10h às 12h
+  * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2023/2](https://docs.google.com/forms/d/e/1FAIpQLSdAhm-dYiv2sm0dFIg9ZYdM2olCj1sIH7_ey0xmdrS6vvBM9w/viewform) para terem acesso à página da disciplina no Google Classroom.
+  * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 11 de agosto.
+  * **Notas de aula:** [Equações Diferenciais versão ago/2022](/assets/material/apostila-ed-ago2022.pdf)
+  * **Avaliação:** Testes regulares assíncronos pelo Google Classroom (semanais ou quinzenais) e provas presenciais.
+
+### 2023/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias
+
+* **Informações:**
+
+  * **Período letivo:** 3 de abril a 22 de julho.
+  * **Material:** O conteúdo da matéria será disponibilizado, ao longo do curso, em um repositório do github: [github.com/rmsrosa/notas_sde](https://github.com/rmsrosa/notas_sde) e [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
+  * **Ferramentas computacionais:** A parte computacional será desenvolvida na linguagem de programação [Julia](https://julialang.org) e poderá ser feita remotamente (na nuvem, em servidores no [binder](https://mybinder.org)) ou localmente, em suas máquinas.
+  * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
+
+### 2023/1: Álgebra Linear
+
+* **Informações:**
+
+  * **Período letivo:** 3 de abril a 22 de julho.
+  * **Local:** I-119 (CT).
+  * **Disciplina:** MAE125 - Álgebra Linear II
+  * **Turma:** 8039 - EQ (Unificado) - Ter/Qui 8h às 10h
+  * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 4 de abril.
+  * **Notas de aula:** [Livro Curso de Álgebra Linear - 3a. Edição - 2021 - Paulo Goldfeld e Marco A. P. Cabral](https://sites.google.com/matematica.ufrj.br/mapcabral/livros-e-videos/curso-de-álgebra-linear?authuser=0#h.a6uqsuthr6cj)
+  * **Avaliação:** Listas pelo Google Classroom e provas presenciais.
+
 ### 2022/2: Álgebra Linear
 
 * **Informações:**
@@ -353,6 +406,31 @@
 ### 1997/1: Cálculo Infinitesimal III (Informática)
 
 ## Pós-graduação
+
+### 2024/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias - PGMAT
+
+* Informações:
+  * **Período letivo:** 18 de março a 20 de julho.
+  * **Material:** O conteúdo da matéria está disponibilizado *online:* [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
+  * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
+  * Disciplina com espelho na graduação.
+
+### 2023/2: Álgebra Linear do Mestrado
+
+* **Informações:**
+
+  * **Período letivo:** 10 de agosto a 23 de dezembro.
+  * **Local:** D-120 e Google Classroom.
+  * **Disciplina:** MAE709 - Álgebra Linear (Mestrado)
+  * **Turma:** 2189 - Ter/Qui - 15h às 17h
+  * **Notas de aula:** [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
+  * **Avaliação:** Listas de exercícios, provas e projeto final.
+
+### 2023/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias
+
+* Informações:
+  * **Período letivo:** 3 de abril a 22 de julho.
+  * Aula com espelho na graduação. Mais informações acima.
 
 ### 2018/1: Integração/Medida e Integração
 

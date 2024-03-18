@@ -15,13 +15,17 @@
 
 * Mathematical modeling
 
-* Stochastic equations
+* Stochastic differential equations
+
+* Advanced linear algebra
 
 ## Graduate courses
 
 * Real Analysis
 
 * Complex variables
+
+* Linear Algebra
 
 * Measure theory
 
@@ -30,6 +34,8 @@
 * Semigroups
 
 * Navier-Stokes equations and turbulence
+
+* Stochastic differential equations
 
 ## Short-courses
 

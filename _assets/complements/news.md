@@ -1,12 +1,20 @@
 {{ if pt_lang }}
 
-#### ⟩⟩⟩ **Equações Diferenciais 2022/2**
+#### ⟩⟩⟩ **Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias 2024/1**
 
-Veja aqui [informações sobre a disciplina de Equações Diferenciais, período 2022/2](/pages/ensino/#20222_equações_diferenciais).
+Veja aqui [informações sobre essa disciplina, período 2024/1](/pages/ensino/#20241_aspectos_teóricos_e_numéricos_de_equações_diferenciais_estocásticas_e_aleatórias) com [espelho na pós-graduação](/pages/ensino/#20241_aspectos_teóricos_e_numéricos_de_equações_diferenciais_estocásticas_e_aleatórias_-_pgmat).
 
-#### ⟩⟩⟩ **Álgebra Linear 2022/2**
+#### ⟩⟩⟩ **Equações Diferenciais 2024/1**
 
-Veja aqui [informações sobre a disciplina de Álgebra Linear, período 2022/2](/pages/ensino/#20222_álgebra_linear).
+Veja aqui [informações sobre a disciplina de Equações Diferenciais, período 2024/1](/pages/ensino/#20241_equações_diferenciais).
+
+#### ⟩⟩⟩ **Equações Diferenciais 2023/2**
+
+Veja aqui [informações sobre a disciplina de Equações Diferenciais, período 2023/2](/pages/ensino/#20232_equações_diferenciais).
+
+#### ⟩⟩⟩ **Álgebra Linear Avançada/Álgebra Linear Mestrado 2023/2**
+
+Veja aqui [informações sobre a disciplina de Álgebra Linear Avançada, período 2023/2](/pages/ensino/#20232_álgebra_linear_avançada) com espelho na [Álgebra Linear do Mestrado 2023/2](/pages/ensino/#20232_álgebra_linear_do_mestrado)
 
 #### ⟩⟩⟩ Publicado artigo sobre estimativas ótimas em volume especial homenageando Ciprian Foias
 
