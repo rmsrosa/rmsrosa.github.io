@@ -13,7 +13,7 @@
   * **Período letivo:** 18 de março a 20 de julho.
   * **Disciplina:** MAE511 - Fundamentos de Computação Científica I
   * **Turma:** 11356 - Ter/Qui - 15h às 17h
-  * **Local:** ??? e Google Classroom.
+  * **Local:** CT, bloco-B, sala 106-B e Google Classroom.
   * **Material:** O conteúdo da matéria está disponibilizado *online:* [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
   * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
   * Disciplina com espelho na pós-graduação.
@@ -25,10 +25,10 @@
   * **Período letivo:** 18 de março a 20 de julho.
   * **Disciplina:** MAE127 - Equações Diferenciais
   * **Turma:** 11096 - Ter/Qui - 10h às 12h
-  * **Local:** ??? e Google Classroom.
-  * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2023/2](https://docs.google.com/forms/d/e/1FAIpQLSdAhm-dYiv2sm0dFIg9ZYdM2olCj1sIH7_ey0xmdrS6vvBM9w/viewform) para terem acesso à página da disciplina no Google Classroom.
+  * **Local:** CCMN, F2-021/023 e Google Classroom.
+  * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2024/1](https://docs.google.com/forms/d/e/1FAIpQLScg7DJXOy20z30S3ouuZ9-Mtk-PxsbOoXuHkhrvEFSbg4BU8g/viewform) para terem acesso à página da disciplina no Google Classroom.
   * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 19 de março.
-  * **Notas de aula:** [Equações Diferenciais versão ago/2022](/assets/material/apostila-ed-ago2022.pdf)
+  * **Notas de aula:** [Equações Diferenciais versão 18/mar/2024](/assets/material/apostila-ed-18mar2024.pdf)
   * **Avaliação:** Testes regulares assíncronos pelo Google Classroom (semanais ou quinzenais) e provas presenciais.
 
 ### 2023/2: Álgebra Linear Avançada
@@ -429,7 +429,7 @@
   * **Período letivo:** 18 de março a 20 de julho.
   * **Disciplina:** MAE731 - Tópicos de Matemática Aplicada I
   * **Turma:** 5058 - Ter/Qui - 15h às 17h
-  * **Local:** ??? e Google Classroom.
+  * **Local:** CT, bloco-B, sala 106-B e Google Classroom.
   * **Material:** O conteúdo da matéria está disponibilizado *online:* [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
   * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
   * Disciplina com espelho na graduação.
