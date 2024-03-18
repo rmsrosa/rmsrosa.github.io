@@ -11,18 +11,34 @@
 
 * Informações:
   * **Período letivo:** 18 de março a 20 de julho.
+  * **Disciplina:** MAE511 - Fundamentos de Computação Científica I
+  * **Turma:** 11356 - Ter/Qui - 15h às 17h
+  * **Local:** ??? e Google Classroom.
   * **Material:** O conteúdo da matéria está disponibilizado *online:* [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
   * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
   * Disciplina com espelho na pós-graduação.
+
+### 2024/1: Equações Diferenciais
+
+* **Informações:**
+
+  * **Período letivo:** 18 de março a 20 de julho.
+  * **Disciplina:** MAE127 - Equações Diferenciais
+  * **Turma:** 11096 - Ter/Qui - 10h às 12h
+  * **Local:** ??? e Google Classroom.
+  * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2023/2](https://docs.google.com/forms/d/e/1FAIpQLSdAhm-dYiv2sm0dFIg9ZYdM2olCj1sIH7_ey0xmdrS6vvBM9w/viewform) para terem acesso à página da disciplina no Google Classroom.
+  * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 19 de março.
+  * **Notas de aula:** [Equações Diferenciais versão ago/2022](/assets/material/apostila-ed-ago2022.pdf)
+  * **Avaliação:** Testes regulares assíncronos pelo Google Classroom (semanais ou quinzenais) e provas presenciais.
 
 ### 2023/2: Álgebra Linear Avançada
 
 * **Informações:**
 
   * **Período letivo:** 10 de agosto a 23 de dezembro.
-  * **Local:** D-120 e Google Classroom.
   * **Disciplina:** MAE352 - Álgebra Linear Avançada
   * **Turma:** 16218 - Ter/Qui - 15h às 17h
+  * **Local:** D-120 e Google Classroom.
   * **Notas de aula:** [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
   * **Avaliação:** Listas de exercícios, provas e projeto final.
 
@@ -31,9 +47,9 @@
 * **Informações:**
 
   * **Período letivo:** 10 de agosto a 23 de dezembro.
-  * **Local:** CCMN F₂-030 e Google Classroom.
   * **Disciplina:** MAE127 - Equações Diferenciais
   * **Turma:** 15795 - Ter/Qui - 10h às 12h
+  * **Local:** CCMN F₂-030 e Google Classroom.
   * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2023/2](https://docs.google.com/forms/d/e/1FAIpQLSdAhm-dYiv2sm0dFIg9ZYdM2olCj1sIH7_ey0xmdrS6vvBM9w/viewform) para terem acesso à página da disciplina no Google Classroom.
   * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 11 de agosto.
   * **Notas de aula:** [Equações Diferenciais versão ago/2022](/assets/material/apostila-ed-ago2022.pdf)
@@ -53,9 +69,9 @@
 * **Informações:**
 
   * **Período letivo:** 3 de abril a 22 de julho.
-  * **Local:** I-119 (CT).
   * **Disciplina:** MAE125 - Álgebra Linear II
   * **Turma:** 8039 - EQ (Unificado) - Ter/Qui 8h às 10h
+  * **Local:** I-119 (CT).
   * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 4 de abril.
   * **Notas de aula:** [Livro Curso de Álgebra Linear - 3a. Edição - 2021 - Paulo Goldfeld e Marco A. P. Cabral](https://sites.google.com/matematica.ufrj.br/mapcabral/livros-e-videos/curso-de-álgebra-linear?authuser=0#h.a6uqsuthr6cj)
   * **Avaliação:** Listas pelo Google Classroom e provas presenciais.
@@ -65,9 +81,9 @@
 * **Informações:**
 
   * **Período letivo:** 29 de agosto a 14 de janeiro.
-  * **Local:** F₂-030 e Google Classroom.
   * **Disciplina:** MAE125 - Álgebra Linear II
   * **Turma:** 10821 - POLI/BCMT/IGA (Unificado) - Ter/Qui 8h às 10h
+  * **Local:** F₂-030 e Google Classroom.
   * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 30 de agosto, na F₂-022.
   * **Notas de aula:** [Livro Curso de Álgebra Linear - 3a. Edição - 2021 - Paulo Goldfeld e Marco A. P. Cabral](https://sites.google.com/matematica.ufrj.br/mapcabral/livros-e-videos/curso-de-álgebra-linear?authuser=0#h.a6uqsuthr6cj)
   * **Avaliação:** Listas pelo Google Classroom e provas presenciais.
@@ -77,9 +93,9 @@
 * **Informações:**
 
   * **Período letivo:** 29 de agosto a 14 de janeiro.
-  * **Local:** F₂-022 e Google Classroom.
   * **Disciplina:** MAE127 - Equações Diferenciais
   * **Turma:** 8308 - Ter/Qui - 10h às 12h
+  * **Local:** F₂-022 e Google Classroom.
   * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2022/2](https://docs.google.com/forms/d/e/1FAIpQLSchoq6brYIKLuls5Kq0bTeNI1-weX2wX_lHrNQPDoks1e2Ggw/viewform) para terem acesso à página da disciplina no Google Classroom.
   * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 30 de agosto, na F₂-022.
   * **Notas de aula:** [Equações Diferenciais versão ago/2022](/assets/material/apostila-ed-ago2022.pdf)
@@ -411,6 +427,9 @@
 
 * Informações:
   * **Período letivo:** 18 de março a 20 de julho.
+  * **Disciplina:** MAE731 - Tópicos de Matemática Aplicada I
+  * **Turma:** 5058 - Ter/Qui - 15h às 17h
+  * **Local:** ??? e Google Classroom.
   * **Material:** O conteúdo da matéria está disponibilizado *online:* [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
   * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
   * Disciplina com espelho na graduação.
