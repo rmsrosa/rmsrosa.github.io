@@ -7,6 +7,17 @@
 
 ## Graduação
 
+### 2024/2: Álgebra Linear Avançada
+
+* **Informações:**
+
+  * **Período letivo:** 12 de agosto a 14 de dezembro.
+  * **Disciplina:** MAE352 - Álgebra Linear Avançada (com espelho na pós-graduação MAE709 - Álgebra Linear)
+  * **Turma:** 0000 - Ter/Qui - 10h às 12h
+  * **Local:** B-106A e Google Classroom.
+  * **Notas de aula:** [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
+  * **Avaliação:** Listas de exercícios, provas e projeto final.
+
 ### 2024/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias
 
 * Informações:
@@ -423,11 +434,32 @@
 
 ## Pós-graduação
 
-### 2024/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias - PGMAT
+* **Informações:**
+
+### 2024/2: Álgebra Linear do Mestrado
+
+  * **Período letivo:** 12 de agosto a 14 de dezembro
+  * **Disciplina:** MAE709 - Álgebra Linear (com espelho na graduação MAE352 - Álgebra Linear Avançada)
+  * **Turma:** 0000 - Ter/Qui - 10h às 12h
+  * **Local:** B-106A e Google Classroom.
+  * **Notas de aula:** [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
+  * **Avaliação:** Listas de exercícios, provas e projeto final.
+
+### 2024/2: Modelos generativos estocásticos
+
+* Informações:
+  * **Período letivo:** 12 de agosto a 14 de dezembro
+  * **Disciplina:** MAE711 - Tópicos de Matemática Aplicada I
+  * **Turma:** 0000 - Seg/Qua - 10h às 12h
+  * **Local:** B-108B e Google Classroom
+  * **Material:** O conteúdo da matéria está disponibilizado *online:* [https://rmsrosa.github.io/random_notes/dev/generative/overview/](https://rmsrosa.github.io/random_notes/dev/generative/overview/).
+  * **Avaliação:** Para a avaliação, devemos ter projetos e apresentações.
+
+### 2024/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias
 
 * Informações:
   * **Período letivo:** 18 de março a 20 de julho.
-  * **Disciplina:** MAE731 - Tópicos de Matemática Aplicada I
+  * **Disciplina:** MAE721 - Tópicos de Matemática Aplicada II
   * **Turma:** 5058 - Ter/Qui - 15h às 17h
   * **Local:** CT, bloco-B, sala 106-B e Google Classroom.
   * **Material:** O conteúdo da matéria está disponibilizado *online:* [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.

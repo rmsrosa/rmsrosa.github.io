@@ -5,9 +5,9 @@
 
 **Email profissional:** `rrosa AT im DOT ufrj DOT br`
 
-**Webpage UFRJ:** [`http://www.im.ufrj.br/rrosa`](http://www.im.ufrj.br/rrosa)
+**Webpage UFRJ:** [`http://www.im.ufrj.br/rrosa`](http://www.im.ufrj.br/rrosa) ou [`https://rmsrosa.github.io`](https://rmsrosa.github.io)
 
-**Gabinete:** C-113B, Bloco C, Centro de Tecnologia (CT), Ilha do Fundão
+**Gabinete:** C-127-07, Bloco C, Centro de Tecnologia (CT), Ilha do Fundão
 
 **Endereço Postal:**
 

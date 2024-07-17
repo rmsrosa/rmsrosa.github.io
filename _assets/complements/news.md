@@ -1,22 +1,22 @@
 {{ if pt_lang }}
 
-#### ⟩⟩⟩ **Disciplina: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias 2024/1**
+#### ⟩⟩⟩ **Disciplina: Modelos generativos estocásticos 2024/2**
 
-Veja aqui [informações sobre essa disciplina, período 2024/1](/pages/ensino/#20241_aspectos_teóricos_e_numéricos_de_equações_diferenciais_estocásticas_e_aleatórias) com [espelho na pós-graduação](/pages/ensino/#20241_aspectos_teóricos_e_numéricos_de_equações_diferenciais_estocásticas_e_aleatórias_-_pgmat).
+Veja aqui [informações sobre essa disciplina, período 2024/2](/pages/ensino/#20242_modelos_generativos_estocásticos).
 
-#### ⟩⟩⟩ **Disciplina: Equações Diferenciais 2024/1**
+#### ⟩⟩⟩ **Disciplina: Álgebra Linear Avançada 2024/2**
 
-Veja aqui [informações sobre a disciplina de Equações Diferenciais, período 2024/1](/pages/ensino/#20241_equações_diferenciais).
+Veja aqui [informações sobre a disciplina de Álgebra Linear do Mestrado, período 2024/2](/pages/ensino/#20242_álgebra_linear_do_mestrado), com espelho na graduação [Álgebra Linear Avançada](/pages/ensino/#20242_álgebra_linear_avançada).
 
 {{ else }}
 
-### ⟩⟩⟩ Teaching: Stochastic and random ordinary differential equations
+### ⟩⟩⟩ Teaching: Advanced Linear Algebra
 
-I am teaching, for the third time, a course on theoretical and numerical aspects of stochastic and random ordinary differential equations. Lecture notes in Portuguese availabe at [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/).
+I am teaching a graduate-level course on Linear Algebra. Lecture notes in Portuguese availabe at [Álgebra Linear Avançada - version 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf).
 
-### ⟩⟩⟩ Teaching: Differential equations
+### ⟩⟩⟩ Teaching: Stochastic generative methods
 
-I am also teaching the usual second-year undergraduate course on ordinary differential equations, with my lecture notes available in Portuguese at [Equações Diferenciais versão ago/2022](/assets/material/apostila-ed-ago2022.pdf).
+I am also teaching a course on generative methods based on stochastic models, with my lecture notes available at [rmsrosa.github.io/random_notes/dev/generative/overview/](https://rmsrosa.github.io/random_notes/dev/generative/overview/).
 
 {{ end }}
 
