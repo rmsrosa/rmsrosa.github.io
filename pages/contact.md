@@ -13,8 +13,8 @@
 
 Instituto de Matemática - UFRJ \
 Av. Athos da Silveira Ramos 149, Centro de Tecnologia - Bloco C \
-Cidade Universitária - Ilha do Fundão - Caixa Postal 68530 \
-Rio de Janeiro - RJ - 21.941-909 - Brasil
+Cidade Universitária - Ilha do Fundão - P. O. Box 68530 \
+Rio de Janeiro - RJ - 21.941-909 - Brazil
 
 **Location:**
 
