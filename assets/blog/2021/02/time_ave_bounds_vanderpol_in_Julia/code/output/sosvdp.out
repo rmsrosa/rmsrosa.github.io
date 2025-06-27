@@ -1,1 +1,2 @@
-UndefVarError: `PlotlyJS` not defined
+ArgumentError: Package SDPAFamily not found in current path.
+- Run `import Pkg; Pkg.add("SDPAFamily")` to install the SDPAFamily package.

@@ -1,1 +1,2 @@
-UndefVarError: `vdp_sol` not defined
+UndefVarError: `optim` not defined in `Main.FD_SANDBOX_2569371999895574908`
+Suggestion: check for spelling errors or missing imports.

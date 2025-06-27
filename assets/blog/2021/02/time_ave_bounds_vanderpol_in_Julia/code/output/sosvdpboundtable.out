@@ -1,11 +1,2 @@
-MethodError: no method matching pretty_table(::IOBuffer, ::Matrix{Float64}, ::Matrix{String}; backend::Symbol, standalone::Bool, formatters::Main.FD_SANDBOX_2569371999895574908.var"#17#18")
-
-Closest candidates are:
-  pretty_table(::IO, ::Any; header, kwargs...)
-   @ PrettyTables ~/.julia/packages/PrettyTables/E8rPJ/src/print.jl:740
-  pretty_table(!Matched::Type{HTML}, ::Any; kwargs...)
-   @ PrettyTables ~/.julia/packages/PrettyTables/E8rPJ/src/print.jl:728
-  pretty_table(!Matched::Type{String}, ::Any; color, kwargs...)
-   @ PrettyTables ~/.julia/packages/PrettyTables/E8rPJ/src/print.jl:722
-  ...
-
+UndefVarError: `Vdeg_range` not defined in `Main.FD_SANDBOX_2569371999895574908`
+Suggestion: check for spelling errors or missing imports.
