@@ -7,11 +7,43 @@
 
 ## Graduação
 
+### 2025/2: EDP e Modelagem Matemática
+
+* Informações:
+  * **Período letivo:** 4 de agosto a 3 de dezembro.
+  * **Disciplina:** MAE474 - Equações a Derivadas Parciais e MAE242	- Modelagem Matemática
+  * **Turma:** ?? - Ter/Qui - 10h às 12h
+  * **Local:** Sala ?? e Google Classroom.
+  * **Material:** A ser informado
+  * **Avaliação:** Para a avaliação, devemos ter testes, provas, projetos e apresentações.
+
+### 2025/1: Equações diferenciais estocásticas
+
+* Informações:
+  * **Período letivo:** 18 de março a 20 de julho.
+  * **Disciplina:** MAE019 - Equações Diferenciais Estocásticas
+  * **Turma:** 14696 - Seg/Qua - 8h às 10h
+  * **Local:** CT, bloco-C, sala 100-B e Google Classroom.
+  * **Material:** O conteúdo da matéria está disponibilizado *online* em [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também está aberta para a comunição com a turma.
+  * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
+
+### 2025/1: Equações Diferenciais
+
+* **Informações:**
+
+  * **Período letivo:** 17 de março a 19 de julho.
+  * **Disciplina:** MAE127 - Equações Diferenciais
+  * **Turma:** 14416 - Ter/Qui - 10h às 12h
+  * **Local:** CCMN, F2-007 e Google Classroom.
+  * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2024/1](https://docs.google.com/forms/d/e/1FAIpQLScanaXUWqBUlQoYK1RgbHagoIwtUfobAl68xwGxyiWyni2jRA/viewform) para terem acesso à página da disciplina no Google Classroom.
+  * **Notas de aula:** [Equações Diferenciais versão 18/mar/2024](/assets/material/apostila-ed-18mar2024.pdf)
+  * **Avaliação:** Testes regulares assíncronos pelo Google Classroom (semanais ou quinzenais) e provas presenciais.
+
 ### 2024/2: Álgebra Linear Avançada
 
 * **Informações:**
 
-  * **Período letivo:** 12 de agosto a 14 de dezembro.
+  * **Período letivo:** 17 de março a 19 de julho.
   * **Disciplina:** MAE352 - Álgebra Linear Avançada (com espelho na pós-graduação MAE709 - Álgebra Linear)
   * **Turma:** 0000 - Ter/Qui - 10h às 12h
   * **Local:** B-106A e Google Classroom.
