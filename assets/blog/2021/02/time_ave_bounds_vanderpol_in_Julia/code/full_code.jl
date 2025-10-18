@@ -1,6 +1,6 @@
 # Title: Computing time average bounds for the Van der Pol oscillator in Julia
 # Publication date: 22 February 2021
-# Last modified: June 27, 2025
+# Last modified: October 18, 2025
 # Code from https://rmsrosa.github.io/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/
 
 # Code snippet: vanderpolsolt.jl

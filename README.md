@@ -6,7 +6,7 @@ It is built with [Franklin.jl](https://github.com/tlienart/Franklin.jl), in the 
 
 ## Developing
 
-For a live local preview of the page, serve it from the `website/` folder with
+For a live local preview of the page, serve it with
 
 ```julia
 pkg> activate .
