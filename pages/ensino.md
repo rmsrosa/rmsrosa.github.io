@@ -7,6 +7,16 @@
 
 ## Graduação
 
+### 2026/1: Equações diferenciais estocásticas
+
+* Informações:
+  * **Período letivo:** 9 de março a 18 de julho.
+  * **Disciplina:** MAE019 - Equações Diferenciais Estocásticas
+  * **Turma:** 14696 - Ter/Qui - 10h às 12h
+  * **Local:** CCMN, bloco-F2, sala 033/035 e Google Classroom.
+  * **Material:** O conteúdo da matéria está disponibilizado *online* em [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também está aberta para a comunição com a turma.
+  * **Avaliação:** Para a avaliação, terenis testes, projetos e apresentações.
+
 ### 2025/2: EDP e Modelagem Matemática
 
 * Informações:
@@ -467,6 +477,15 @@
 ## Pós-graduação
 
 * **Informações:**
+
+### 2026/1: Equações de Navier-Stokes
+
+  * **Período letivo:** 9 de março a 18 de julho
+  * **Disciplina:** MAE831 - Tópicos Especiais de Matemática Aplicada III
+  * **Turma:** 0000 - Ter/Qui - 13h às 15h
+  * **Local:** C-100A e Google Classroom.
+  * **Notas de aula:** disponíveis no Google Classroom
+  * **Avaliação:** Listas de exercícios
 
 ### 2024/2: Álgebra Linear do Mestrado
 
