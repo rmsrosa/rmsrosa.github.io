@@ -2,7 +2,7 @@ The following 1 direct dependency failed to precompile:
 
 SumOfSquares 
 
-Failed to precompile SumOfSquares [4b9e565b-77fc-50a5-a571-1244f986bda1] to "/home/runner/.julia/compiled/v1.12/SumOfSquares/jl_ty4FlU".
+Failed to precompile SumOfSquares [4b9e565b-77fc-50a5-a571-1244f986bda1] to "/home/runner/.julia/compiled/v1.12/SumOfSquares/jl_GibKfr".
 ERROR: LoadError: MethodError: no method matching action(::SymbolicWedderburn.OnLetters, ::PermutationGroups.Permutation{PermutationGroups.Perms.Perm{UInt16}, PermutationGroups.PermGroup{PermutationGroups.Perms.Perm{UInt16}, PermutationGroups.Transversal{UInt16, PermutationGroups.Perms.Perm{UInt16}}}}, ::SymbolicWedderburn.Word{Symbol})
 The function `action` exists, but no method is defined for this combination of argument types.
 
@@ -51,15 +51,15 @@ Stacktrace:
  [17] include(mod::Module, _path::String)
     @ Base ./Base.jl:306
  [18] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::String)
-    @ Base ./loading.jl:2997
+    @ Base ./loading.jl:3028
  [19] top-level scope
     @ stdin:5
  [20] eval(m::Module, e::Any)
     @ Core ./boot.jl:489
  [21] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
-    @ Base ./loading.jl:2843
+    @ Base ./loading.jl:2874
  [22] include_string
-    @ ./loading.jl:2853 [inlined]
+    @ ./loading.jl:2884 [inlined]
  [23] exec_options(opts::Base.JLOptions)
     @ Base ./client.jl:315
  [24] _start()
@@ -67,40 +67,40 @@ Stacktrace:
 in expression starting at /home/runner/.julia/packages/SymbolicWedderburn/hBhTJ/src/precompile.jl:3
 in expression starting at /home/runner/.julia/packages/SymbolicWedderburn/hBhTJ/src/SymbolicWedderburn.jl:1
 in expression starting at stdin:5
-ERROR: LoadError: Failed to precompile SymbolicWedderburn [858aa9a9-4c7c-4c62-b466-2421203962a2] to "/home/runner/.julia/compiled/v1.12/SymbolicWedderburn/jl_v9tdde".
+ERROR: LoadError: Failed to precompile SymbolicWedderburn [858aa9a9-4c7c-4c62-b466-2421203962a2] to "/home/runner/.julia/compiled/v1.12/SymbolicWedderburn/jl_hls5NF".
 Stacktrace:
   [1] error(s::String)
     @ Base ./error.jl:44
   [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, keep_loaded_modules::Bool; flags::Cmd, cacheflags::Base.CacheFlags, reasons::Dict{String, Int64}, loadable_exts::Nothing)
-    @ Base ./loading.jl:3284
+    @ Base ./loading.jl:3315
   [3] (::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}})()
-    @ Base ./loading.jl:2652
+    @ Base ./loading.jl:2683
   [4] mkpidlock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, at::String, pid::Int32; kwopts::@Kwargs{stale_age::Int64, wait::Bool})
-    @ FileWatching.Pidfile /opt/hostedtoolcache/julia/1.12.0/x64/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:93
+    @ FileWatching.Pidfile /opt/hostedtoolcache/julia/1.12.6/x64/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:96
   [5] #mkpidlock#7
-    @ /opt/hostedtoolcache/julia/1.12.0/x64/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:88 [inlined]
+    @ /opt/hostedtoolcache/julia/1.12.6/x64/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:91 [inlined]
   [6] trymkpidlock(::Function, ::Vararg{Any}; kwargs::@Kwargs{stale_age::Int64})
-    @ FileWatching.Pidfile /opt/hostedtoolcache/julia/1.12.0/x64/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:114
+    @ FileWatching.Pidfile /opt/hostedtoolcache/julia/1.12.6/x64/share/julia/stdlib/v1.12/FileWatching/src/pidfile.jl:117
   [7] #invokelatest_gr#232
-    @ ./reflection.jl:1282 [inlined]
+    @ ./reflection.jl:1297 [inlined]
   [8] invokelatest_gr
-    @ ./reflection.jl:1274 [inlined]
+    @ ./reflection.jl:1289 [inlined]
   [9] maybe_cachefile_lock(f::Base.var"#__require_prelocked##0#__require_prelocked##1"{Base.PkgId, String, Dict{String, Int64}}, pkg::Base.PkgId, srcpath::String; stale_age::Int64)
-    @ Base ./loading.jl:3855
+    @ Base ./loading.jl:3886
  [10] maybe_cachefile_lock
-    @ ./loading.jl:3852 [inlined]
+    @ ./loading.jl:3883 [inlined]
  [11] __require_prelocked(pkg::Base.PkgId, env::String)
-    @ Base ./loading.jl:2638
+    @ Base ./loading.jl:2669
  [12] _require_prelocked(uuidkey::Base.PkgId, env::String)
-    @ Base ./loading.jl:2465
+    @ Base ./loading.jl:2495
  [13] macro expansion
-    @ ./loading.jl:2393 [inlined]
+    @ ./loading.jl:2423 [inlined]
  [14] macro expansion
     @ ./lock.jl:376 [inlined]
  [15] __require(into::Module, mod::Symbol)
-    @ Base ./loading.jl:2358
+    @ Base ./loading.jl:2388
  [16] require(into::Module, mod::Symbol)
-    @ Base ./loading.jl:2334
+    @ Base ./loading.jl:2364
  [17] top-level scope
     @ ~/.julia/packages/SumOfSquares/qWLHE/src/Certificate/Symmetry/Symmetry.jl:9
  [18] include(mapexpr::Function, mod::Module, _path::String)
@@ -114,15 +114,15 @@ Stacktrace:
  [22] include(mod::Module, _path::String)
     @ Base ./Base.jl:306
  [23] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt128}}, source::Nothing)
-    @ Base ./loading.jl:2997
+    @ Base ./loading.jl:3028
  [24] top-level scope
     @ stdin:5
  [25] eval(m::Module, e::Any)
     @ Core ./boot.jl:489
  [26] include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
-    @ Base ./loading.jl:2843
+    @ Base ./loading.jl:2874
  [27] include_string
-    @ ./loading.jl:2853 [inlined]
+    @ ./loading.jl:2884 [inlined]
  [28] exec_options(opts::Base.JLOptions)
     @ Base ./client.jl:315
  [29] _start()
