@@ -702,6 +702,8 @@
 
 ## Notas de aula
 
+### Notas de aula de disciplinas do IM-UFRJ
+
 * [Equações Diferenciais versão 18/mar/2024](/assets/material/apostila-ed-18mar2024.pdf)
 
 * [Equações Diferenciais Estocásticas](https://rmsrosa.github.io/notas_sde/)
@@ -710,9 +712,9 @@
 
 * Modelagem Matemática: [github.com/rmsrosa/modelagem_matematica/tree/ModMat2022p1](https://github.com/rmsrosa/modelagem_matematica/tree/modmat2022p1) e [rmsrosa.github.io/modelagem_matematica](https://rmsrosa.github.io/modelagem_matematica/)
 
-* [Modelagem de epidemias](https://github.com/rmsrosa/modcovid19/blob/master/contents/notebooks/00.00-Pagina_Inicial.ipynb)
+### Outras notas
 
-## Outras notas
+* [Modelagem de epidemias](https://github.com/rmsrosa/modcovid19/blob/master/contents/notebooks/00.00-Pagina_Inicial.ipynb)
 
 * [Random Notes](https://rmsrosa.github.io/random_notes/dev/)
 
