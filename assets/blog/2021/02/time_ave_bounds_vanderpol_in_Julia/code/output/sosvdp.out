@@ -2,7 +2,7 @@ The following 1 direct dependency failed to precompile:
 
 SumOfSquares 
 
-Failed to precompile SumOfSquares [4b9e565b-77fc-50a5-a571-1244f986bda1] to "/home/runner/.julia/compiled/v1.12/SumOfSquares/jl_GibKfr".
+Failed to precompile SumOfSquares [4b9e565b-77fc-50a5-a571-1244f986bda1] to "/home/runner/.julia/compiled/v1.12/SumOfSquares/jl_aC72XU".
 ERROR: LoadError: MethodError: no method matching action(::SymbolicWedderburn.OnLetters, ::PermutationGroups.Permutation{PermutationGroups.Perms.Perm{UInt16}, PermutationGroups.PermGroup{PermutationGroups.Perms.Perm{UInt16}, PermutationGroups.Transversal{UInt16, PermutationGroups.Perms.Perm{UInt16}}}}, ::SymbolicWedderburn.Word{Symbol})
 The function `action` exists, but no method is defined for this combination of argument types.
 
@@ -67,7 +67,7 @@ Stacktrace:
 in expression starting at /home/runner/.julia/packages/SymbolicWedderburn/hBhTJ/src/precompile.jl:3
 in expression starting at /home/runner/.julia/packages/SymbolicWedderburn/hBhTJ/src/SymbolicWedderburn.jl:1
 in expression starting at stdin:5
-ERROR: LoadError: Failed to precompile SymbolicWedderburn [858aa9a9-4c7c-4c62-b466-2421203962a2] to "/home/runner/.julia/compiled/v1.12/SymbolicWedderburn/jl_hls5NF".
+ERROR: LoadError: Failed to precompile SymbolicWedderburn [858aa9a9-4c7c-4c62-b466-2421203962a2] to "/home/runner/.julia/compiled/v1.12/SymbolicWedderburn/jl_qTa9nb".
 Stacktrace:
   [1] error(s::String)
     @ Base ./error.jl:44
