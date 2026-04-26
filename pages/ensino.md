@@ -15,15 +15,15 @@
   * **Turma:** 14696 - Ter/Qui - 10h às 12h
   * **Local:** CCMN, bloco-F2, sala 033/035 e Google Classroom.
   * **Material:** O conteúdo da matéria está disponibilizado *online* em [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também está aberta para a comunição com a turma.
-  * **Avaliação:** Para a avaliação, terenis testes, projetos e apresentações.
+  * **Avaliação:** Para a avaliação, teremos testes, projetos e apresentações.
 
 ### 2025/2: EDP e Modelagem Matemática
 
 * Informações:
   * **Período letivo:** 4 de agosto a 3 de dezembro.
   * **Disciplina:** MAE474 - Equações a Derivadas Parciais e MAE242	- Modelagem Matemática
-  * **Turma:** ?? - Ter/Qui - 10h às 12h
-  * **Local:** Sala ?? e Google Classroom.
+  * **Turma:** 16056 - Ter/Qui - 10h às 12h
+  * **Local:** Sala CCMN - F2 034/036 e Google Classroom.
   * **Material:** A ser informado
   * **Avaliação:** Para a avaliação, devemos ter testes, provas, projetos e apresentações.
 
@@ -55,7 +55,7 @@
 
   * **Período letivo:** 17 de março a 19 de julho.
   * **Disciplina:** MAE352 - Álgebra Linear Avançada (com espelho na pós-graduação MAE709 - Álgebra Linear)
-  * **Turma:** 0000 - Ter/Qui - 10h às 12h
+  * **Turma:** 9007 (MAE352) e 2919 (MAE709) - Ter/Qui - 10h às 12h
   * **Local:** B-106A e Google Classroom.
   * **Notas de aula:** [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
   * **Avaliação:** Listas de exercícios, provas e projeto final.
@@ -482,7 +482,7 @@
 
   * **Período letivo:** 9 de março a 18 de julho
   * **Disciplina:** MAE831 - Tópicos Especiais de Matemática Aplicada III
-  * **Turma:** 0000 - Ter/Qui - 13h às 15h
+  * **Turma:** 13236 - Ter/Qui - 13h às 15h
   * **Local:** C-100A e Google Classroom.
   * **Notas de aula:** disponíveis no Google Classroom
   * **Avaliação:** Listas de exercícios
@@ -491,7 +491,7 @@
 
   * **Período letivo:** 12 de agosto a 14 de dezembro
   * **Disciplina:** MAE709 - Álgebra Linear (com espelho na graduação MAE352 - Álgebra Linear Avançada)
-  * **Turma:** 0000 - Ter/Qui - 10h às 12h
+  * **Turma:** 2919 (MAE709) e 9007 (MAE352) - Ter/Qui - 10h às 12h
   * **Local:** B-106A e Google Classroom.
   * **Notas de aula:** [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
   * **Avaliação:** Listas de exercícios, provas e projeto final.
@@ -637,6 +637,8 @@
 
 ### Orientações de Mestrado
 
+* Luan Lima Freitas, "Strong Convergence of the Euler Method for Random Ordinary Differential Equations Driven by Semimartingales", 26 de novembro de 2025
+
 * Cecília Freire Mondaini, "Uma formulação abstrata para o estudo de soluções estatísticas das equações de Navier-Stokes", 30 de março de 2010.
 
 * Raphael Carlos Santos Machado, "Criptossistemas dinâmicos", 31 de julho de 2006.
@@ -697,3 +699,26 @@
 
 * **Trabalhos de Conclusão de Curso em 2003:**
   * Carlos Ferreira, "Sistemas Hamiltonianos e aplicações em Modelagem Molecular"
+
+## Notas de aula
+
+* [Equações Diferenciais versão 18/mar/2024](/assets/material/apostila-ed-18mar2024.pdf)
+
+* [Equações Diferenciais Estocásticas](https://rmsrosa.github.io/notas_sde/)
+
+* [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
+
+* Modelagem Matemática: [github.com/rmsrosa/modelagem_matematica/tree/ModMat2022p1](https://github.com/rmsrosa/modelagem_matematica/tree/modmat2022p1) e [rmsrosa.github.io/modelagem_matematica](https://rmsrosa.github.io/modelagem_matematica/)
+
+* [Modelagem de epidemias](https://github.com/rmsrosa/modcovid19/blob/master/contents/notebooks/00.00-Pagina_Inicial.ipynb)
+
+## Outras notas
+
+* [Random Notes](https://rmsrosa.github.io/random_notes/dev/)
+
+* [RODE Convergence](https://rmsrosa.github.io/rode_convergence_euler/stable/)
+
+* [Epidemics Simulator](https://github.com/ModSiming/EpiSiming/blob/master/notebooks/00.00-Pagina_Inicial.ipynb)
+
+* [Two-dimensional periodic flows](https://rmsrosa.github.io/2dnsepervortjl/)
+
