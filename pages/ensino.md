@@ -708,9 +708,9 @@
 
 * [Equações Diferenciais Estocásticas](https://rmsrosa.github.io/notas_sde/)
 
-* [Álgebra Linear Avançada - versão 4/jan/2024](/assets/material/AlgebraLinearAvancada_RRosa_4jan2024.pdf)
+* [Álgebra Linear Avançada - versão 29/mai/2026](/assets/material/AlgebraLinearAvancada_RRosa_29mai2026.pdf)
 
-* Modelagem Matemática: [github.com/rmsrosa/modelagem_matematica/tree/ModMat2022p1](https://github.com/rmsrosa/modelagem_matematica/tree/modmat2022p1) e [rmsrosa.github.io/modelagem_matematica](https://rmsrosa.github.io/modelagem_matematica/)
+* [Modelagem Matemática - versão 2022/1](https://rmsrosa.github.io/modelagem_matematica/) ([repositório github](https://github.com/rmsrosa/modelagem_matematica/tree/modmat2022p1))
 
 ### Outras notas
 

@@ -1,4 +1,8 @@
 
+1. Kloeden, P. E, Rosa, R. M. S., Strong order-one convergence of the Euler method for random ordinary differential equations driven by semi-martingale noises, ESAIM: Mathematical Modelling and Numerical Analysis, vol. 59 (2025), ([DOI:10.1051/m2an/2025087](https://doi.org/10.1051/m2an/2025087)) ([arXiv:2306.15418 [math.PR]](https://doi.org/10.48550/arXiv.2306.15418))
+
+1. Rosa, R. M. S., Regularity of the global attractor for the 2D incompressible Navier-Stokes equations on channel-like domains, Journal of Differential Equations, vol. 435 (2026) ([DOI:10.1016/j.jde.2025.113873](https://doi.org/10.1016/j.jde.2025.113873)) ([arXiv:2508.01868 [math.AP]](https://doi.org/10.48550/arXiv.2508.01868))
+
 1. De Oliveira, M; Bertho, A. C. S.; Costa, B.; Somerlatte Silva, F.; Alves, M. B.; Ramos Ramirez, M.; Borges, R. B. R.; Marques, R.; Rosa, R. M. S.; Peregrino, R. L.; Lobo, V. G. R; Fonseca, T. C. O.. BR-EMS 2021 life table for the Brazilian insured population. Revista Brasileira de Estudos de População - REBEP, v. 40 (2023), p. 1--24. ([DOI: 10.20947/s0102-3098a0252](http://dx.doi.org/10.20947/s0102-3098a0252))
 
 1. Becker, R. A.; Bercovici, H.; Biswas, A.; Cheskidov, A.; Constantin, P.; Eden, A.; Frazho, A.; Jolly, M.; Kukavica, I.; Pearcy, C.; Rosa, R. M. S.; Saut, J.-C.; Tannenbaum, A.; Temam, R.; Titi, E.; Voiculescu, D.. Remembrances of Ciprian Ilie Foias. American Mathematical Society. Notices, v. 69 (2022), p. 1529--1545. ([DOI: 10.1090/noti2545](https://doi.org/10.1090/noti2545))
