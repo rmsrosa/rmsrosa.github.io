@@ -7,6 +7,19 @@
 
 ## Graduação
 
+### 2026/2: Equações Diferenciais
+
+* **Informações:**
+
+  * **Período letivo:** 10 de agosto a 19 de dezembro
+  * **Disciplina:** MAE127 - Equações Diferenciais
+  * **Turma:** 16195 - Ter/Qui - 10h às 12h
+  * **Local:** CCMN, F2-034 e Google Classroom.
+  * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2026/2](https://forms.gle/BR9AC5MRPGvtVbZR6) para terem acesso à página da disciplina no Google Classroom.
+  * **Notas de aula:** [Equações Diferenciais versão 18/mar/2024](/assets/material/apostila-ed-18mar2024.pdf)
+  * **Avaliação:** Listas regulares assíncronas pelo Google Classroom (semanais ou quinzenais), Testes regulares em sala de aula (quinzenais) e provas presenciais.
+  * **Presença em sala de aula:** A presença será cobrada e é necessário ter um mínimo de 75% de presença para não ser reprovado por falta.
+
 ### 2026/1: Equações diferenciais estocásticas
 
 * Informações:
@@ -477,6 +490,13 @@
 ## Pós-graduação
 
 * **Informações:**
+
+### 2026/2: Equações de Navier-Stokes
+
+  * **Período letivo:** 10 de agosto a 19 de dezembro
+  * **Disciplina:** MAE841 - Tópicos Especiais de Matemática Aplicada IV
+  * **Turma:** 14600 - Ter/Qui - 13h às 15h
+  * **Local:** B-108A
 
 ### 2026/1: Equações de Navier-Stokes
 
