@@ -1,2 +1,7 @@
-ArgumentError: Package SDPAFamily not found in current path.
-- Run `import Pkg; Pkg.add("SDPAFamily")` to install the SDPAFamily package.
+LoadError: The following 1 package failed to precompile:
+
+MathOptInterface 
+Failed to precompile MathOptInterface [b8f27783-ece8-5eb3-8dc8-9495eed66fee] to "/home/runner/.julia/compiled/v1.13/MathOptInterface/jl_gXvNH9" (ProcessExited(1)).
+
+in expression starting at /home/runner/.julia/packages/PolyJuMP/9rxvM/src/PolyJuMP.jl:1
+in expression starting at /home/runner/.julia/packages/SumOfSquares/DhHQX/src/SumOfSquares.jl:1
